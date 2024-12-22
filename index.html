@@ -464,30 +464,33 @@
         </section>
 
         <section class="relative bg-gray-100 py-12 overflow-hidden">
-            <!-- Анимация при загрузке -->
-            <div class="absolute inset-0 bg-yellow-200 opacity-20 rounded-xl transform scale-150 animate-pulse"></div>
-        
-            <!-- Контейнер для контента -->
-            <div class="relative z-10 max-w-xl mx-auto px-6 text-center">
-                <h2 class="text-4xl font-bold text-blue-600 mb-6" style="font-family: 'Zen Kurenaido', sans-serif; color: rgb(80,4,20);">
-                     Видео о стрит-арте в Израиле
-                </h2>
-                <p class="text-lg text-gray-700 mb-8">
-                    Узнайте больше о культуре стрит-арта через это короткое видео. Оно расскажет об истории, эмоциях и идеях, которые скрываются за каждым шедевром.
-                </p>
-                <!-- Видео -->
-                <div class="relative aspect-w-2  aspect-h-9 rounded-lg  overflow-hidden transform transition " style="margin-left: 110px;">
-                    <iframe 
-                        class="rounded-lg"
-                        src="israel.mp4" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-        </section>
+    <!-- Анимация при загрузке -->
+    <div class="absolute inset-0 bg-yellow-200 opacity-20 rounded-xl transform scale-150 animate-pulse"></div>
+
+    <!-- Контейнер для контента -->
+    <div class="relative z-10 max-w-xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold text-blue-600 mb-6" style="font-family: 'Zen Kurenaido', sans-serif; color: rgb(80,4,20);">
+            Видео о стрит-арте в Израиле
+        </h2>
+        <p class="text-lg text-gray-700 mb-8">
+            Узнайте больше о культуре стрит-арта через это короткое видео. Оно расскажет об истории, эмоциях и идеях, которые скрываются за каждым шедевром.
+        </p>
+        <!-- Видео -->
+        <div class="relative aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+            <video 
+                class="rounded-lg" 
+                controls 
+                autoplay 
+                muted 
+                loop 
+                style="width: 100%; height: auto;">
+                <source src="israel.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео-тег.
+            </video>
+        </div>
+    </div>
+</section>
+
 
         <section id="section5" class="bg-gray-100 drop-shadow-lg relative">
             <div class="max-w-4xl mx-auto px-6 py-12">
